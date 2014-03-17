@@ -1,0 +1,62 @@
+body {
+	width: 1024px;
+	height: 768px;
+	font-family: Arial, sans-serif;
+	background-color: gray;
+}
+
+header {
+	width: 1014px;
+	font-family = Impact, sans-serif;
+	border: 5px solid black;
+	text-align: center;
+}
+
+#sidebar {
+	float: left;
+	width: 204px;
+	height: 500px;
+	border: 5px solid red;
+}
+
+#main {
+	float: left;
+	width: 780px;
+	height: 500px;
+	text-align: center;
+	border: 5px solid green;
+	padding-left: 15px;
+	margin-left: 5px;
+}
+
+footer {
+	width: 1014px;
+	text-align: center;
+	border: 5px solid black;
+	clear: left;
+}
+
+.crazy {
+	font:italic bold 20px Georgia, serif;
+	color: yellow;
+	background-color: blue;
+}
+
+.wrapper {
+	width: 100%
+	max-width: 1024px;
+	min-width: 960px;
+	margin: 0 auto;
+}
+
+.image {
+	position: relative;
+}
+
+h3 {
+	position: absolute;
+	top: 0px;
+	left: 100px;
+	color: white;
+	background-color: gray;
+}
