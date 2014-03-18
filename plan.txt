@@ -1,0 +1,3 @@
+PLAN FOR WEBSITE
+
+My site will be fairly simple.  As opposed to a traditional header at the top of the page, I will have my name in the center of the page.  Underneath my name I will have bulleted links to my DBC exercises as well as my tumblr blog and twitter.  At the bottom of the page I will have a contact statement footer that will have a link to my email.
