@@ -1,0 +1,44 @@
+body {
+	background-color:#99FF99;
+	width: 1024px;
+	height: 768px;
+}
+
+header {
+	background-color: #F7D358;
+	font-family: Tahoma, sans-serif;
+	height: 80px;
+	width: 100%;
+	font-size: 30px;	
+	color: orange;
+	text-shadow: 0px 2px 2px black;
+}
+
+nav {
+	float: left;
+	width: 160px;
+	background-color: #FFCC99;
+	border: 2px solid black;
+}
+
+#main {
+	float: left;
+	width: 860px;
+	height: 660px;
+	background-color: #CC6600;
+}
+
+p {
+	font-size: 15px;
+	margin-left: 50px;
+	margin-right: 250px;
+	text-align: justify;
+}
+
+footer {
+	text-align: center;
+	position:fixed;
+	bottom:0px;
+	height:30px;
+	width:100%;
+}
