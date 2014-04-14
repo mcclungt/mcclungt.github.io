@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<link rel="stylesheet" type="text/css" href="stylesheets/week4technical.css">
+		<title>
+			Technical Blog
+		</title>
+	</head>
+	<body>
+		<header>
+			Technical Blog
+		</header>
+		<nav>
+			<ul>
+				<li><a href="../index.html">Homepage</a></li>
+				<li><a href="week4technical.html">Technical Blog</a></li>
+				<li><a href="week4cultural.html">Cultural Blog</a></li>
+			</ul>
+		</nav>
+		<div id="main"> 
+			<h2> 4 / 0 6 / 2 0 1 4 - E N U M E R A B L E # G R O U P _ B Y</h2>
+			<p>
+				The group_by method is part of the enumerable class in ruby. It takes an array and converts it to a hash that is sorted by the input of the method. Here are some uses:<br>
+				&emsp;You could sort an array of strings by first letter:<br><br>
+				&emsp;strings = ["Lorem", "Ipsum", "Dolor", "Sit", "Lamet"]<br>
+				&emsp;strings.group_by { |x| x[0] } => {"L"=>["Lorem", "Lamet"], "I"=>["Ipsum"], "D"=>["Dolor"], "S"=>["Sit"]}<br><br>
+				&emsp;As seen above, group_by can be used to sort the list into a hash where the keys are letters and the values are the strings that begin with those letters. This is extremely useful for any sort of filing system, and is very easy to implement. Here's an example where the array is separated into a hash by length:<br><br>
+				&emsp;strings.group_by { |x| x.length } => {"5"=>["Lorem", "Ipsum", "Dolor", "Lamet"], "3"=>["Sit"]}<br><br>
+				&emsp;As you can see the strings array was converted into a hash with the keys being the length of the string and the values being the strings themselves. This is just the tip of the iceberg when it comes to the group_by method, but from these examples you can get a taste of the utility of the method.
+			</p>
+		</div>
+		<footer>
+		<div id="subtext2"><a href="https://twitter.com/timcclung">twitter</a> | <a href="http://www.tumblr.com/blog/timothymcclung">tumblr</a> | <a href="mailto:timothyjmcclung@gmail.com">email</a>
+		</footer>
+	</body>
+</html>

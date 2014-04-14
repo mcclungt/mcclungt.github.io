@@ -1,4 +1,4 @@
-# U2.W1: Homework Cheater
+# U2.W4: Homework Cheater
 
 # I worked on this challenge by myself
 

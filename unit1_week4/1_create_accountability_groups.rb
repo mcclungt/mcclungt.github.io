@@ -1,4 +1,4 @@
-# U2.W4: Create Accountability Groups
+# U2.W1: Create Accountability Groups
 
 # I worked on this challenge with Kennedy
 
